@@ -1,0 +1,310 @@
+/*.glavniRedKolona{
+	background-color: #CCCCCC;
+}
+.sporedniRed{
+	background-color: #FFF2CC;
+}*/
+
+
+body{
+	
+	background-color:#f3f3f4; 
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+.gornji-meni{
+	height: 50px;
+	background-color: #405072;
+	color: white;
+	margin-left: 0px;
+}
+.glavna-pretraga{
+	min-height: 90px;
+	background-color: #D7E2E7;
+	color: white;
+	margin-left: 0px;
+	overflow: hidden;
+}
+.sadrzaj-kontejner{
+	margin: auto;
+	max-width: 1200px;
+	color: black;
+	/*border: 1px solid #73AD21;*/
+}
+
+.sadrzaj-prvi-dio-naslovna{
+	background-color: white;
+	/*min-height: 300px;*/
+	border: 1px solid #ced1d1;
+	overflow: hidden;
+	width: 100%;
+	margin: -2px;
+}
+.sporedni-meni{
+	width: 200px;
+	/*height: 100%;*/
+	float: left;
+	/*border: 1px solid #73AD21;*/
+}
+.naslovna-reklame{
+	color: black;
+	float: left;
+	max-width: 994px;
+	/*height: 100%;*/
+	/*border: 1px solid #73AD21;*/
+}
+.izdvojeni-artikli{
+	width: 100%;
+	height: auto;
+	border: 1px solid #ced1d1;
+	margin: -2px;
+	overflow: hidden;
+}
+h2{
+	margin: 5px 0px 5px 5px; 
+}
+a{
+	text-decoration: none;
+}
+.lista-sporedni-meni{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #e4e4e4;
+}
+.sporedni-meni-stavka{
+	line-height: 25px;
+	width: auto;
+	height: 25px;
+	padding-left: 10px;
+	border: 1px solid #c0c0c0;
+	color: #494949;
+	display: block;
+}
+a.sporedni-meni-stavka:hover { 
+    background-color: white;
+}
+.lista-gornji-meni{
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.glavni-meni-stavka-li{
+	display: inline;
+	margin-left: -5px;
+}
+.glavni-meni-stavka{
+	line-height: 50px;
+	display: inline-block;
+	height: 48px;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 1px solid #73AD21;*/
+	color: #D7E2E7;
+	font-size: 18px;
+}
+a.glavni-meni-stavka:hover{
+	background-color: #3b4868;
+}
+.izdvojeni-artikal{
+	width: 218px;
+	height: 300px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+	border: 1px solid #ced1d1;
+}
+.izdovjeni-artikal-slika{
+	height: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.izdvojeni-artikal img{
+	/*max-width:100%;*/
+	padding: 2px 2px 2px 2px;
+	width: 214px;
+	max-height:100%;
+}
+.izdvojeni-artikal p{
+	text-decoration: none;
+	height: 40px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.izdvojeni-artikal h2{
+	margin: 0;
+	background-color: #c0c0c0;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #5B5B5B;
+}
+.velika-reklama{
+	float: left;
+	margin: 10px 5px 5px 10px;
+	height: 180px;
+	width: 580px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #c0c0c0;
+}
+.velika-reklama img{
+	width:582px;
+	max-height:100%;
+}
+.velika-reklama p{
+	float: right;
+}
+.srednja-reklama{
+	float: left;
+	margin: 10px 5px 5px 10px;
+	height: 82px;
+	width: 380px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #c0c0c0;
+}
+.srednja-reklama img{
+	width: 382px;
+	max-height:100%;
+}
+.srednja-reklama p{
+	float: right;
+}
+.mala-reklama{
+	float: left;
+	margin: 10px 5px 5px 10px;
+	height: 80px;
+	width: 132px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #c0c0c0;
+}
+.mala-reklama img{
+	width: 134px;
+	max-height:100%;
+}
+.mala-reklama p{
+	float: right;
+}
+.logo{
+	width: 200px;
+	height: 90px;
+	float: left;
+	/*border: 1px solid #73AD21;*/
+}
+.logo p{
+	margin: 5px 10px 5px 10px;
+	font-size: 60px;
+	font-style: italic;
+	border: 5px solid #c0c0c0;
+	border-radius: 10px;
+}
+.pretraga{
+	width: 800px;
+	height: 70px;
+	float: left;
+	overflow: hidden;
+	padding-top: 20px;
+	/*border: 1px solid #73AD21;*/
+}
+.pretraga input{
+	width: 500px;
+	height: 50px;
+	float: left;
+	font-size: 25px;
+	border-radius: 8px;
+	border: 1px solid #1c84c6;
+	text-indent: 15px;
+}
+.pretraga button{
+	height: 50px;
+	width: 100px;
+	float: left;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #1c84c6;
+	color: white;
+}
+.prijava{
+	width: 194px;
+	height: 70px;
+	float: left;
+	padding-top: 20px;
+	/*border: 1px solid #73AD21;*/
+}
+.prijava button{
+	float: right;
+	height: 50px;
+	width: 100px;
+	font-size: 20px;
+	border-radius: 8px;
+	/*margin-left: 30px;*/
+	background-color: #21b9bb;
+	color: white;
+}
+.centrirana-pretraga{
+	margin: auto;
+	width: 78%;
+}
+.kontakt{
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+	width: 350px;
+	background-color: #D7E2E7;
+	border: 2px solid #c0c0c0;
+}
+.kontakt label{
+	margin-right: 10px;
+	float: right;
+}
+.puna-sirina{
+	width: 100%;
+}
+.kontakt table{
+	width: 100%;
+}
+.kontakt td,th{
+	border: none;
+}
+.kontakt textarea{
+	width: 100%;
+}
+.kontakt-wraper{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.tabela{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+.tabela tr,th,td{
+	border: 1px solid black;
+}
+.tabela-header{
+	background-color: #D7E2E7;
+}
+.parni-red{
+	background-color: #c0c0c0;
+}
+.sadrzaj-kontejner table{
+	margin-top: 20px;
+}
+.lista-eksternih-linkova{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.lista-eksternih-linkova ul{
+	list-style: none;
+}
+.lista-eksternih-linkova li:hover{
+	list-style-image: url("Content/Icons/Circle_Red.png");
+	list-style-type: square;
+}
