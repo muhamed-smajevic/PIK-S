@@ -1,0 +1,10 @@
+﻿ZADATAK 1.
+	*Novosti ustvari predstavljaju izdvojene artikle, gdje u dnu svakog stoji prije koliko je objavljen. 
+	*U skripti je postavljena funkcija koja pri pokretanju postavlja datume takve da pobroji svih 12 slučajeva iz zadatka.
+
+ZADATAK 2.
+	*U gornjem desnom uglu "Izdvojenih artikala" sa "Početne" stranice nalazi se combobox gdje se biraju traženi prikazi i u zavisnosti
+	se filtriraju određene novosti.
+
+ZADATAK 3.
+	*Validiraju se polja označena sa (*) i validiraju se regexom, dok polja označena sa (**) predstavljaju multiple field validaciju. 
