@@ -33,12 +33,17 @@ function prikazIzabranihNovosti(){
 				&& trenutnoVrijeme.getFullYear() == datumVrijemeObjave.getFullYear()) //danasnji dan
 					objekti[i].parentElement.setAttribute("style",""); 
 		}else if (izabrano=="novostiOveSedmice"){
-			var razlikaSekunde = Math.round((trenutnoVrijeme.getTime() - datumVrijemeObjave.getTime())/1000);
+			var datumPonedjeljak = trenutnoVrijeme;
+  			var ponedjeljak = datumPonedjeljak.getDay(), diff = d.getDate() - day + (day == 0 ? -6:1); 
+  			datumPonedjeljak.setDate(diff);
+
+			/*var razlikaSekunde = Math.round((trenutnoVrijeme.getTime() - datumVrijemeObjave.getTime())/1000);
 			var razlikaMinute = Math.round(razlikaSekunde/60);
 			var razlikaSati = Math.round(razlikaMinute/60);
 			var razlikaDani = Math.round(razlikaSati/24);
-
-			if(razlikaDani<7) //trenutna sedmica
+*/
+			//if(razlikaDani<7) //trenutna sedmica
+			if(datumVrijemeObjave>=datumPonedjeljak) //trenutna sedmica
 				objekti[i].parentElement.setAttribute("style",""); 
 		}else if(izabrano=="novostiOvogMjeseca"){
 			if(trenutnoVrijeme.getMonth() == datumVrijemeObjave.getMonth()
@@ -100,7 +105,6 @@ function postaviPorukeObjaveNovosti(){
 													 datumVrijemeObjave.getMinutes() +":"+
 													 datumVrijemeObjave.getSeconds();
 		}
-		//console.log(razlikaSekunde);
 	};
 }
 
